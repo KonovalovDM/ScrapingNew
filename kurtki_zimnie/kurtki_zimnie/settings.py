@@ -1,4 +1,4 @@
-# Scrapy settings for divanpars project
+# Scrapy settings for kurtki_zimnie project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -7,14 +7,14 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = "divanpars"
+BOT_NAME = "kurtki_zimnie"
 
-SPIDER_MODULES = ["divanpars.spiders"]
-NEWSPIDER_MODULE = "divanpars.spiders"
+SPIDER_MODULES = ["kurtki_zimnie.spiders"]
+NEWSPIDER_MODULE = "kurtki_zimnie.spiders"
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = "divanpars (+http://www.yourdomain.com)"
+#USER_AGENT = "kurtki_zimnie (+http://www.yourdomain.com)"
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -45,13 +45,13 @@ ROBOTSTXT_OBEY = True
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    "divanpars.middlewares.DivanparsSpiderMiddleware": 543,
+#    "kurtki_zimnie.middlewares.KurtkiZimnieSpiderMiddleware": 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    "divanpars.middlewares.DivanparsDownloaderMiddleware": 543,
+#    "kurtki_zimnie.middlewares.KurtkiZimnieDownloaderMiddleware": 543,
 #}
 
 # Enable or disable extensions
@@ -63,7 +63,7 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 #ITEM_PIPELINES = {
-#    "divanpars.pipelines.DivanparsPipeline": 300,
+#    "kurtki_zimnie.pipelines.KurtkiZimniePipeline": 300,
 #}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
